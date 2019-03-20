@@ -22,17 +22,20 @@
         
        
         
-            var one = prompt("Ввидите первое число", "18");
-            var two = prompt("Ввидите второе число", "100");
+            var age = prompt("Ввидите первое число", "18");
+            
           
-          if(one == 1){
-              if(two == 1){
-                  alert("1")
+          if(age > 15){
+              alert("Сколько лет отцу")
+              var fatherAge = prompt("сколько лет отцу?");
+              if(fatherAge < 60){
+                    alert("Работающий отец");
               }
               else{
-                  alert("2")
+                  alert("Он на пенсии");
               }
           }
+        
         
         
     </script>
