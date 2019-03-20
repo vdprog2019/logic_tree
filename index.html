@@ -28,15 +28,19 @@
         var y = prompt("Введите второе значение", "2");
         var z = 0;
         
-        if(x+y > 23){
+        if(x > 7 || y > 7){
+            z = 7;
+        }
+        
+        if(x < 7){
             z = 1;
         }
         
-        if(x+y < 21){
-            z = 2;
+        if(y < 7){
+            z = 0;
         }
         
-        var sum = x - (y*y*y) - 72 - z;
+        var sum = x - (y*y*y) - 7 - z;
         alert(sum);
         
     </script>
