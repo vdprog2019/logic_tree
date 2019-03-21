@@ -1,49 +1,49 @@
+<!DOCTYPE html>
 <html>
-    
-<head>   
-    
-    <style>
-    
-        body{
-            background-color: black;
-        }
-    
-        img{
-            border: 4px solid red;
-        }
-    </style>
-    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
 </head>
-
 <body>
-
-    
     <script>
-        
-       
-        
 
+            var choice = prompt("введите значение");
+            var x;
+
+            
+            if(x == 1){
+
+            
+            var a = prompt("Введите a");
+	        var b = prompt("Введите b");
+	        var S = a*b;
+	        alert(S); 
+            }
+
+            
+    
+                else if(x == 2){
+
+                var a = prompt("Введите a");
+                var h = prompt("Введите h");
+                var S2 = a*h;
+                alert(S2);
+                }
         
-        var x = prompt("Введите первое значение", "1");
-        var y = prompt("Введите второе значение", "2");
-        var z = 0;
-        
-        if(x > 7 || y > 7){
-            z = 7;
-        }
-        
-        if(x < 7){
-            z = 1;
-        }
-        
-        if(y < 7){
-            z = 0;
-        }
-        
-        var sum = x - (y*y*y) - 7 - z;
-        alert(sum);
-        
+            
+                else{
+
+                var pi = prompt("Введите pi");
+                var r = prompt("Введите r");
+                var S3 = pi*r*r;
+                alert(S3);
+                }
+
+            
     </script>
 </body>
-
 </html>
