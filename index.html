@@ -1,49 +1,50 @@
+<!DOCTYPE html>
 <html>
-    
-<head>   
-    
-    <style>
-    
-        body{
-            background-color: black;
-        }
-    
-        img{
-            border: 4px solid red;
-        }
-    </style>
-    
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Page Title</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css">
+
 </head>
-
 <body>
-
-    
     <script>
-        
-       
-        
 
-        
-        var x = prompt("Введите первое значение", "1");
-        var y = prompt("Введите второе значение", "2");
-        var z = 0;
-        
-        if(x > 7 || y > 7){
-            z = 7;
-        }
-        
-        if(x < 7){
-            z = 1;
-        }
-        
-        if(y < 7){
-            z = 0;
-        }
-        
-        var sum = x - (y*y*y) - 7 - z;
-        alert(sum);
-        
+        var country = prompt("введите номер страны");
+
+            switch(country){
+
+                case "1": alert("Japane" + " 126 804 433 people" + "\n" + " 336 in square kilometre");
+                break;
+
+                case "2": alert("German" + " 82 282 988 people" + "\n" + " 230 in square kilometre");
+                break;
+
+                case "3": alert("Italy" + " 58 090 681 people" + "\n" +" 193 in square kilometre");
+                break;
+
+                case "4": alert("Switzerland" + " 7 623 438 people" + " 185 in square kilometre");
+                break;
+
+                case "5": alert("Czech" + " 10 201 707 people" + "\n" + " 129 in square kilometre");
+                break;
+
+                case "6": alert("Poland" + " 38 463 689 people" + "\n" + " 123 in square kilometre");
+                break;
+
+                case "7": alert("France" + " 64 768 389 people" + "\n" +" 118 in square kilometre");
+                break;
+
+                case "8": alert("Austria" + " 8 214 160 people" +"\n" + " 98 in square kilometre");
+                break;
+
+
+                default: alert("Choose figure from 1 to 8");
+                
+            }
+
+            
     </script>
 </body>
-
 </html>
